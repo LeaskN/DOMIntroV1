@@ -8,14 +8,14 @@
 // // add that button to the body
 // body.appendChild(newButton);
 // // adding text to the button
-// newButton.innerHTML = "ADD";
+// newButton.innerText = "ADD";
 
 // let i = 0;
 
 // function addButtonClicked(){
 //     let newHeader = document.createElement('h2');
     
-//     newHeader.innerHTML = "Big Blue Balloon";
+//     newHeader.innerText = "Big Blue Balloon";
 //     newHeader.setAttribute('id', i);
 //     body.appendChild(newHeader);
 
@@ -29,7 +29,7 @@
 // // add that button to the body
 // body.appendChild(newButton2);
 // // adding text to the button
-// newButton2.innerHTML = "REMOVE";
+// newButton2.innerText = "REMOVE";
 
 // function removeButtonClicked(){
 //     let toDelete = document.getElementById(i - 1);
@@ -55,8 +55,8 @@ let i = 0;
 body.setAttribute('style', 'color: teal');
 body.appendChild(newButton);
 body.appendChild(newButton2);
-newButton.innerHTML = "ADD";
-newButton2.innerHTML = "REMOVE";
+newButton.innerText = "ADD";
+newButton2.innerText = "REMOVE";
 
 newButton.addEventListener('click', addButtonClicked);
 newButton2.addEventListener('click', removeButtonClicked);
@@ -64,7 +64,7 @@ newButton2.addEventListener('click', removeButtonClicked);
 function addButtonClicked(){
     let newHeader = document.createElement('h2');
     
-    newHeader.innerHTML = "Big Blue Balloon";
+    newHeader.innerText = "Big Blue Balloon";
     newHeader.setAttribute('id', i);
     body.appendChild(newHeader);
 
