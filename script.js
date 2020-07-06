@@ -84,3 +84,4 @@ function removeButtonClicked(){
         window.alert('Nothing to delete');
     }
 }
+
